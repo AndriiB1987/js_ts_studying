@@ -1,0 +1,20 @@
+
+ul{
+    background: rgba(214, 210, 210, 0.671) ;
+}
+.explanationClass_howToCook{
+    color:#db7705;
+    font-size: 27px;
+}
+#explanationID_howToCook{
+    color:#db7705;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+span {
+    color:#42db05;
+    font-weight: bolder;
+}
+
+
