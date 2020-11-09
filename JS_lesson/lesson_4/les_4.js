@@ -4,9 +4,8 @@ let myArray=[3,2,4,5,6,7,8,9];
 function getArray (someArray){
     for(let i=0; i<someArray.length;i++)
     {
-        console.log(someArray[i])
+        console.log(Math.floor(someArray[i]))
     }   
-//console.log(someArray);
 }
 getArray(myArray)
 
@@ -17,9 +16,8 @@ let randomArrey = [];
 function createRandomArray (arrRand){
     for(let i=0; i<7;i++)
     {
-        arrRand.push(Math.random())
+       let sdsd =  arrRand.push(Math.random()*(30-20)+10)
     }   
-    //return arrRand;
 }
 createRandomArray(randomArrey);
 getArray(randomArrey);
