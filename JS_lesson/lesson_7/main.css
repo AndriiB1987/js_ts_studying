@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+.flexPart {
+    display: flex;
+}
+.red {
+    width: 25%;
+    height: 240px;
+    background: rgb(255, 0, 0);
+}
+.green {
+    width: 25%;
+    height: 240px;
+    background: rgb(64, 163, 6);
+}
+.blue {
+    width: 25%;
+    height: 240px;
+    background: rgb(5, 131, 180);
+}
+.black {
+    width: 25%;
+    height: 240px;
+    background: rgb(123, 0, 0);
+}
+.grey {
+    width: 25%;
+    height: 240px;
+    background: rgb(123, 123, 123);
+    clear: top;
+}
+.purple {
+    width: 25%;
+    height: 515px;
+    background: rgb(100, 100, 123);
+    clear: top;}
+#divTask_1, #divTask_2, #divTask_3, #divTask_5, #divTask_6,divTask_4 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: greenyellow;
+}
+p{
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(123, 0, 0);
+}
+#btn_hide {
+    background-color: rgb(113, 97, 207);
+}
+.myClass{
+    text-align: justify-all;
+}
+#btn_hide, #btn_color, #btn_confirm, #btn_confirm_5{
+    margin: auto;
+}
