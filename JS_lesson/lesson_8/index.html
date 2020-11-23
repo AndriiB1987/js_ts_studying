@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="1!1">
+<head>
+    <meta charset="UTF-8">
+    <title>LESSON_#8</title>
+</head>
+<body>
+<style>
+    p, form {
+        font-size: 20pt;
+        text-align: center;
+        color: rgb(123, 0, 0);
+    }
+    .task1{
+        background: aqua;
+    }
+    .task2{
+        background: greenyellow;
+    }
+    .task3{
+        background: paleturquoise;
+    }
+    #form4{
+        background: gold;
+    }
+
+    .container{
+        height: 20px;
+        position: relative;
+        border: 1px solid green;}
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);}
+</style>
+<div class="task1">
+        <p>Task # 1</p>
+        <p id="myText"></p>
+        <form action="" id="form0" name="myForm0">
+            <input type="text0" value="Write down smtk" id="text0">
+        </form>
+    <div class="container">
+        <div class="center">
+        <button id="btn_safe">save</button>
+        </div>
+    </div>
+</div>
+<div class="task2">
+    <p>Task # 2</p>
+    <form action="" id="form1" name="myForm1">
+        <input type="text" value="_" id="text1">
+        <input type="checkbox" name="check1" id="checkbox0">
+        <input type="radio" name="rad" id="radio0" value="false">
+        <input type="radio" name="rad" id="radio1" value="false">
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+</div>
+<div class="task3">
+    <p>Task # 3</p>
+    <form action="" id="form2" name="myForm2">
+        <input type="button" id="btn_back" value="<<<">
+        <textarea name="text" id="text3" cols="20" rows="7"></textarea>
+        <input type="button" id="btn_next" value=">>>">
+    </form>
+    <div class="container">
+        <div class="center">
+            <button id="btn_safeInfo">save</button>
+        </div>
+    </div>
+</div>
+
+<fieldset>
+    <legend>MyForm</legend>
+<!--    <p>Task # 4</p>-->
+    <form id="form3" name="myForm3">
+        <label>Name</label>
+        <br>
+        <input type="text" name="PIB">
+        <br>
+        <label>Mobile</label>
+        <br>
+        <input type="tel" name="Phone">
+        <br>
+        <label>mail</label>
+        <br>
+        <input type="text" name="post">
+        <br>
+        <label>Company</label>
+        <br>
+        <input type="text" name="firma">
+        <br>
+        <label>Department</label>
+        <br>
+        <input type="text" name="dep">
+        <br>
+        <label>Birth Day</label>
+        <br>
+        <input type="date" name="hb">
+        <br>
+        <br>
+        <input type="submit" name="submit1">
+        <br>
+    </form>
+</fieldset>
+<div id="content"></div>
+
+<script src="les_8.js"></script>
+</body>
+</html>
