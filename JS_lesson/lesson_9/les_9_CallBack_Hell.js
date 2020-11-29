@@ -33,7 +33,7 @@ let myRand = 0.3;
     function drinkWater(myWaterCallBack){
       setTimeout(()=>{
         console.log('<<I HAVE to drink a hot water>>')
-        if(Math.random > myRand){
+        if(Math.random() > myRand){
           myWaterCallBack("???? - ", null);
           return;
       }
@@ -44,7 +44,7 @@ let myRand = 0.3;
   function takingShower(myHotWaterCallBack){
     setTimeout(()=>{
       console.log('<<water is greate>>')
-      if(Math.random > myRand){
+      if(Math.random() > myRand){
         myHotWaterCallBack("dddddddddddddddf - ", null);
         return;
     }
@@ -55,7 +55,7 @@ let myRand = 0.3;
   //________________________почистити зуби
   function brushTeath(bTeeth){
     setTimeout(()=>{
-      if(Math.random > myRand){
+      if(Math.random() > myRand){
     bTeeth(`4 - to brush teeth is DONE also`,null)}
     console.log(`-------------------------------------------------`);
     bTeeth(null, '4 - I have fresh breath \nNext I will go out')
@@ -66,7 +66,7 @@ let myRand = 0.3;
   function gettingToWork(gettingToWork){
     setTimeout(()=>{
       console.log('<<I am gettin to work>>')
-      if(Math.random > myRand){
+      if(Math.random() > myRand){
         gettingToWork("go to work - ", null);
          return;
     }
